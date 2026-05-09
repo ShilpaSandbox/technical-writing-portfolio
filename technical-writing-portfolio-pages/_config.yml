@@ -1,0 +1,6 @@
+title: "[Your Name] | Technical Writing Portfolio"
+description: "Technical writer portfolio featuring developer docs, user help, SOPs, release notes, and documentation case studies."
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: pretty

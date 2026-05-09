@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="{{ '/' | relative_url }}">[Your Name]</a>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/samples/api-quickstart-taskflow/' | relative_url }}">API Sample</a>
+        <a href="{{ '/samples/password-reset-help-article/' | relative_url }}">Help Article</a>
+        <a href="{{ '/samples/release-notes-publishing-sop/' | relative_url }}">SOP</a>
+        <a href="{{ '/samples/release-notes-v4-2/' | relative_url }}">Release Notes</a>
+        <a href="{{ '/samples/developer-onboarding-case-study/' | relative_url }}">Case Study</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>[Your Name]</strong><br>
+        Technical Writer | Software Documentation | Developer Communication
+      </div>
+      <div>
+        <a href="mailto:your-email@example.com">Email</a> ·
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a> ·
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
