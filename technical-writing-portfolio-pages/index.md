@@ -7,7 +7,7 @@ permalink: /
 <section class="hero">
   <div class="container">
     <p><strong>Technical Writer Portfolio</strong></p>
-    <h1>[Your Name]</h1>
+    <h1>Shilpa John</h1>
     <p>Technical writer with a background in software engineering, Java, Python, and web design. I create clear, user-focused documentation that helps developers, internal teams, and end users understand products faster and work with less friction.</p>
     <div class="badges">
       <span class="badge">Software Documentation</span>
@@ -17,7 +17,7 @@ permalink: /
       <span class="badge">Java · Python · Web Design</span>
     </div>
     <div class="cta-row">
-      <a class="button" href="mailto:your-email@example.com">Contact Me</a>
+      <a class="button" href="shilpajohn.sandbox@gmail.com">Contact Me</a>
       <a class="button secondary" href="https://www.linkedin.com/" target="_blank" rel="noopener">View LinkedIn</a>
     </div>
   </div>
@@ -25,7 +25,7 @@ permalink: /
 
 ## About this portfolio
 
-This site showcases sample documentation across developer docs, end-user help, internal process documentation, release communication, and documentation case studies. The goal is to demonstrate clarity, structure, audience awareness, and the ability to translate technical complexity into usable content.
+## This site showcases sample documentation across developer docs, end-user help, internal process documentation, release communication, and documentation case studies. The goal is to demonstrate clarity, structure, audience awareness, and the ability to translate technical complexity into usable content.
 
 <div class="meta-box">
 <strong>Good fit for roles such as:</strong> Technical Writer, Documentation Specialist, Developer Documentation Writer, Knowledge Base Writer, and Software Documentation Specialist.
@@ -76,7 +76,7 @@ This site showcases sample documentation across developer docs, end-user help, i
 
 <section class="section">
   <h2>Contact</h2>
-  <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a><br>
+  <p>Email: <a href="mailto:shilpajohn.sandbox@gmail.com">shilpajohn.sandbox@gmail.com</a><br>
   LinkedIn: <a href="https://www.linkedin.com/" target="_blank" rel="noopener">[LinkedIn URL]</a><br>
-  GitHub: <a href="https://github.com/" target="_blank" rel="noopener">[GitHub URL]</a></p>
+  GitHub: <a href="https://github.com/" target="_blank" rel="noopener">https://shilpasandbox.github.io/technical-writing-portfolio/</a></p>
 </section>
