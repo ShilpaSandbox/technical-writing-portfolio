@@ -1,6 +1,7 @@
 title: "Shilpa John | Technical Writing Portfolio"
-description: "Technical writer portfolio featuring developer docs, user help, SOPs, release notes, and documentation case studies."
-url: ""
-baseurl: ""
+description: "Technical writer portfolio featuring API documentation, developer onboarding, user help content, and portfolio pages."
+url: "https://shilpasandbox.github.io"
+baseurl: "/technical-writing-portfolio"
 markdown: kramdown
 permalink: pretty
+
