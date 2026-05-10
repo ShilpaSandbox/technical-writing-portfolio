@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "format": "html",
+  "metadata": {
+    "title": "Developer Onboarding — Training Deck (Copy)",
+    "description": "Editable copy of the 5-slide developer onboarding training deck with red and white color scheme.",
+    "author": ""
+  },
+  "canvas": {"width": 1920, "height": 1080},
+  "playlist": [
+    "cover.html",
+    "goals-and-access.html",
+    "local-setup.html",
+    "verification-troubleshooting.html",
+    "first-week-readiness.html"
+  ]
+}

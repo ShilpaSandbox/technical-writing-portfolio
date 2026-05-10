@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Local Setup & Environment — Developer Onboarding</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/deck.css">
+</head>
+<body>
+<div class="slide-container" data-screen-label="03 Local Setup" style="position:relative; width:1920px; height:1080px; overflow:hidden; background:#FFFFFF;">
+
+  <!-- Top red rule -->
+  <div data-object="true" data-object-type="shape" class="top-rule" style="position:absolute; z-index:1;"></div>
+
+  <!-- Section label -->
+  <div data-object="true" data-object-type="textbox" class="kicker"
+       style="position:absolute; left:100px; top:60px; width:600px; z-index:10;">
+    03 · Workflow
+  </div>
+
+  <!-- Title -->
+  <div data-object="true" data-object-type="textbox" class="title-lg"
+       style="position:absolute; left:100px; top:110px; width:1300px; z-index:10;">
+    Local Setup &amp; Environment
+  </div>
+
+  <!-- Subtitle -->
+  <div data-object="true" data-object-type="textbox" class="subtitle"
+       style="position:absolute; left:100px; top:240px; width:1500px; z-index:10;">
+    Four steps from a clean machine to a running application — clone, configure, install, start.
+  </div>
+
+  <!-- =============== STEP 1 — Clone =============== -->
+  <div data-object="true" data-object-type="shape" class="card-plain"
+       style="position:absolute; left:100px; top:360px; width:420px; height:600px; z-index:1;"></div>
+  <div data-object="true" data-object-type="shape"
+       style="position:absolute; left:100px; top:360px; width:420px; height:8px; background:var(--c-red); z-index:1;"></div>
+
+  <div data-object="true" data-object-type="textbox" class="step-num"
+       style="position:absolute; left:130px; top:390px; width:360px; z-index:10;">
+    01
+  </div>
+  <div data-object="true" data-object-type="textbox" class="title-sm"
+       style="position:absolute; left:130px; top:480px; width:360px; z-index:10;">
+    Clone the repository
+  </div>
+  <div data-object="true" data-object-type="textbox" class="body-xs"
+       style="position:absolute; left:130px; top:545px; width:360px; z-index:10;">
+    Pull the primary application repo (and any supporting services).
+  </div>
+
+  <div data-object="true" data-object-type="shape" class="code-block"
+       style="position:absolute; left:130px; top:660px; width:360px; height:260px; z-index:1;"></div>
+  <div data-object="true" data-object-type="textbox" class="code-text"
+       style="position:absolute; left:150px; top:680px; width:320px; z-index:10;">
+    <span class="prompt">$</span> git clone<br>
+    &nbsp;&nbsp;&nbsp;[Repository URL]<br>
+    <span class="prompt">$</span> cd [Repo Folder]<br>
+    <span class="prompt">$</span> git checkout -b<br>
+    &nbsp;&nbsp;&nbsp;feature/[ticket]
+  </div>
+
+  <!-- =============== STEP 2 — Configure =============== -->
+  <div data-object="true" data-object-type="shape" class="card-plain"
+       style="position:absolute; left:540px; top:360px; width:420px; height:600px; z-index:1;"></div>
+  <div data-object="true" data-object-type="shape"
+       style="position:absolute; left:540px; top:360px; width:420px; height:8px; background:var(--c-red); z-index:1;"></div>
+
+  <div data-object="true" data-object-type="textbox" class="step-num"
+       style="position:absolute; left:570px; top:390px; width:360px; z-index:10;">
+    02
+  </div>
+  <div data-object="true" data-object-type="textbox" class="title-sm"
+       style="position:absolute; left:570px; top:480px; width:360px; z-index:10;">
+    Configure environment
+  </div>
+  <div data-object="true" data-object-type="textbox" class="body-xs"
+       style="position:absolute; left:570px; top:570px; width:360px; z-index:10;">
+    Copy the env template and fill values from the secrets manager.
+  </div>
+
+  <div data-object="true" data-object-type="shape" class="code-block"
+       style="position:absolute; left:570px; top:660px; width:360px; height:260px; z-index:1;"></div>
+  <div data-object="true" data-object-type="textbox" class="code-text"
+       style="position:absolute; left:590px; top:680px; width:320px; z-index:10;">
+    <span class="prompt">$</span> cp .env.example<br>
+    &nbsp;&nbsp;&nbsp;.env<br>
+    <span class="prompt">#</span> set DB, API,<br>
+    <span class="prompt">#</span> SECRET_KEY values<br>
+    <span class="prompt">#</span> never commit .env
+  </div>
+
+  <!-- =============== STEP 3 — Install =============== -->
+  <div data-object="true" data-object-type="shape" class="card-plain"
+       style="position:absolute; left:980px; top:360px; width:420px; height:600px; z-index:1;"></div>
+  <div data-object="true" data-object-type="shape"
+       style="position:absolute; left:980px; top:360px; width:420px; height:8px; background:var(--c-red); z-index:1;"></div>
+
+  <div data-object="true" data-object-type="textbox" class="step-num"
+       style="position:absolute; left:1010px; top:390px; width:360px; z-index:10;">
+    03
+  </div>
+  <div data-object="true" data-object-type="textbox" class="title-sm"
+       style="position:absolute; left:1010px; top:480px; width:360px; z-index:10;">
+    Install dependencies
+  </div>
+  <div data-object="true" data-object-type="textbox" class="body-xs"
+       style="position:absolute; left:1010px; top:545px; width:360px; z-index:10;">
+    Install backend, frontend, and Python service packages.
+  </div>
+
+  <div data-object="true" data-object-type="shape" class="code-block"
+       style="position:absolute; left:1010px; top:660px; width:360px; height:260px; z-index:1;"></div>
+  <div data-object="true" data-object-type="textbox" class="code-text"
+       style="position:absolute; left:1030px; top:680px; width:320px; z-index:10;">
+    <span class="prompt">$</span> ./gradlew build<br>
+    <span class="prompt">$</span> npm install<br>
+    <span class="prompt">$</span> python -m venv .venv<br>
+    <span class="prompt">$</span> pip install -r<br>
+    &nbsp;&nbsp;&nbsp;requirements.txt
+  </div>
+
+  <!-- =============== STEP 4 — Start (highlighted card-red) =============== -->
+  <div data-object="true" data-object-type="shape" class="card-red"
+       style="position:absolute; left:1420px; top:360px; width:420px; height:600px; z-index:1;"></div>
+
+  <div data-object="true" data-object-type="textbox" class="step-num on-red"
+       style="position:absolute; left:1450px; top:390px; width:360px; z-index:10;">
+    04
+  </div>
+  <div data-object="true" data-object-type="textbox" class="title-sm on-red"
+       style="position:absolute; left:1450px; top:480px; width:360px; z-index:10;">
+    Start the application
+  </div>
+  <div data-object="true" data-object-type="textbox"
+       style="position:absolute; left:1450px; top:545px; width:360px; z-index:10; font-family:var(--f-sans); font-size:20px; font-weight:500; line-height:1.4; color:var(--c-red-wash);">
+    Run backend, services, and frontend in the recommended order.
+  </div>
+
+  <div data-object="true" data-object-type="shape"
+       style="position:absolute; left:1450px; top:660px; width:360px; height:260px; background:var(--c-red-deep); z-index:1;"></div>
+  <div data-object="true" data-object-type="textbox"
+       style="position:absolute; left:1470px; top:680px; width:320px; z-index:10; font-family:var(--f-mono); font-size:16px; font-weight:500; color:var(--c-white); line-height:1.7;">
+    <span style="opacity:0.7;">$</span> ./gradlew bootRun<br>
+    <span style="opacity:0.7;">$</span> python app.py<br>
+    <span style="opacity:0.7;">$</span> npm start<br>
+    <span style="opacity:0.7;">→</span> http://localhost<br>
+    &nbsp;&nbsp;&nbsp;:3000 / :8080
+  </div>
+
+  <!-- Footer -->
+  <div data-object="true" data-object-type="shape" class="footer-rule" style="position:absolute; z-index:1;"></div>
+  <div data-object="true" data-object-type="textbox" class="footer-counter" style="position:absolute; z-index:10;">
+    DEVELOPER ONBOARDING &nbsp;·&nbsp; 03 / 05
+  </div>
+
+</div>
+</body>
+</html>

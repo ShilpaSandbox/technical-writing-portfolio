@@ -1,0 +1,91 @@
+<!doctype html>
+<!--
+  ==========================================================================
+  SLIDE TEMPLATE — duplicate this file to create a new slide
+  ==========================================================================
+
+  HOW TO USE
+  1. Copy this file to a new name in the same folder, e.g.
+     `release-process.html`.
+  2. Update the <title> tag.
+  3. Update the data-screen-label on .slide-container (e.g. "06 Release").
+  4. Update the section label, slide title, and subtitle in the marked spots.
+  5. Replace the CONTENT BLOCK with your slide-specific data-objects.
+  6. Update the footer counter (e.g. "06 / 06") and bump manifest.json playlist.
+
+  CONVENTIONS
+  - All shared colors, typography, and components live in /assets/deck.css.
+    Use the helper classes (.kicker, .title-lg, .subtitle, .card-plain,
+    .card-wash, .card-red, .code-block, .code-text, .footer-counter, etc.)
+    and avoid duplicating font-size / color values inline.
+  - Every direct child of .slide-container has data-object="true" and
+    data-object-type="textbox|shape|image|icon|chart" so the structure
+    stays editable.
+  - Position is authoritative: keep `position:absolute; left:Npx; top:Npx;`
+    inline on each data-object. Width/height go inline only when needed.
+  - z-index: shapes = 1, images = 5, textboxes/icons = 10.
+  - Canvas: 1920 × 1080. Footer counter sits at top:1035, rule at top:1020.
+  ==========================================================================
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Slide Title — Developer Onboarding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/deck.css">
+</head>
+<body>
+<div class="slide-container" data-screen-label="NN Section Label" style="position:relative; width:1920px; height:1080px; overflow:hidden; background:#FFFFFF;">
+
+  <!-- Top red rule (shared header pattern on every interior slide) -->
+  <div data-object="true" data-object-type="shape" class="top-rule" style="position:absolute; z-index:1;"></div>
+
+  <!-- Section label (e.g. "02 · Orientation") -->
+  <div data-object="true" data-object-type="textbox" class="kicker"
+       style="position:absolute; left:100px; top:60px; width:600px; z-index:10;">
+    NN · Section
+  </div>
+
+  <!-- Slide title -->
+  <div data-object="true" data-object-type="textbox" class="title-lg"
+       style="position:absolute; left:100px; top:110px; width:1500px; z-index:10;">
+    Slide Title Here
+  </div>
+
+  <!-- Subtitle / lead paragraph -->
+  <div data-object="true" data-object-type="textbox" class="subtitle"
+       style="position:absolute; left:100px; top:240px; width:1500px; z-index:10;">
+    One-sentence summary of what this slide covers.
+  </div>
+
+  <!-- =====================================================================
+       CONTENT BLOCK — replace this with your slide-specific data-objects.
+       Use the card/component classes from deck.css to stay on-system:
+
+         <div data-object="true" data-object-type="shape" class="card-plain"
+              style="position:absolute; left:100px; top:360px; width:760px; height:500px; z-index:1;"></div>
+
+         <div data-object="true" data-object-type="shape" class="card-wash"
+              style="position:absolute; left:900px; top:360px; width:760px; height:500px; z-index:1;"></div>
+
+         <div data-object="true" data-object-type="shape" class="card-red"
+              style="position:absolute; left:1180px; top:360px; width:640px; height:380px; z-index:1;"></div>
+
+         <div data-object="true" data-object-type="textbox" class="body-md"
+              style="position:absolute; left:100px; top:430px; width:760px; z-index:10;">
+           Body copy here.
+         </div>
+       ===================================================================== -->
+
+  <!-- Footer divider + counter (update the counter for each slide) -->
+  <div data-object="true" data-object-type="shape" class="footer-rule" style="position:absolute; z-index:1;"></div>
+  <div data-object="true" data-object-type="textbox" class="footer-counter"
+       style="position:absolute; z-index:10;">
+    DEVELOPER ONBOARDING &nbsp;·&nbsp; NN / NN
+  </div>
+
+</div>
+</body>
+</html>

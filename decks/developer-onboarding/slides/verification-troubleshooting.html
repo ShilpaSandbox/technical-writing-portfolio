@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Verify & Troubleshoot — Developer Onboarding</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/deck.css">
+</head>
+<body>
+<div class="slide-container" data-screen-label="04 Verify & Troubleshoot" style="position:relative; width:1920px; height:1080px; overflow:hidden; background:#FFFFFF;">
+
+  <!-- Top red rule -->
+  <div data-object="true" data-object-type="shape" class="top-rule" style="position:absolute; z-index:1;"></div>
+
+  <!-- Section label -->
+  <div data-object="true" data-object-type="textbox" class="kicker"
+       style="position:absolute; left:100px; top:60px; width:600px; z-index:10;">
+    04 · Validation
+  </div>
+
+  <!-- Title -->
+  <div data-object="true" data-object-type="textbox" class="title-lg"
+       style="position:absolute; left:100px; top:110px; width:1300px; z-index:10;">
+    Verify &amp; Troubleshoot
+  </div>
+
+  <!-- Subtitle -->
+  <div data-object="true" data-object-type="textbox" class="subtitle"
+       style="position:absolute; left:100px; top:240px; width:1500px; z-index:10;">
+    Confirm the environment is healthy, then resolve common setup issues before escalating.
+  </div>
+
+  <!-- =============== Left: Verification checklist =============== -->
+  <div data-object="true" data-object-type="textbox" class="kicker-sm"
+       style="position:absolute; left:100px; top:360px; width:760px; z-index:10;">
+    Verification Checklist
+  </div>
+
+  <div data-object="true" data-object-type="shape" class="title-rule"
+       style="position:absolute; left:100px; top:392px; width:80px; z-index:1;"></div>
+
+  <div data-object="true" data-object-type="textbox" class="title-xs"
+       style="position:absolute; left:100px; top:430px; width:760px; z-index:10;">
+    Confirm a healthy local environment
+  </div>
+
+  <div data-object="true" data-object-type="textbox" class="body-md"
+       style="position:absolute; left:100px; top:500px; width:760px; z-index:10;">
+    ☑ &nbsp;Frontend loads in browser<br>
+    ☑ &nbsp;Backend starts without repeated failures<br>
+    ☑ &nbsp;Login succeeds with approved test account<br>
+    ☑ &nbsp;App reads from approved local / dev data sources<br>
+    ☑ &nbsp;Basic navigation works end to end<br>
+    ☑ &nbsp;One known test workflow completes successfully
+  </div>
+
+  <!-- Verification card with example workflow -->
+  <div data-object="true" data-object-type="shape" class="card-wash"
+       style="position:absolute; left:100px; top:820px; width:760px; height:160px; z-index:1;"></div>
+
+  <div data-object="true" data-object-type="textbox" class="kicker-xs"
+       style="position:absolute; left:130px; top:840px; width:700px; z-index:10;">
+    Example Workflow
+  </div>
+
+  <div data-object="true" data-object-type="textbox" class="body-xs"
+       style="position:absolute; left:130px; top:870px; width:700px; z-index:10; color:var(--c-ink);">
+    Sign in &nbsp;→&nbsp; open dashboard &nbsp;→&nbsp; create test record &nbsp;→&nbsp; verify backend log shows a successful request.
+  </div>
+
+  <!-- =============== Right: Common issues table =============== -->
+  <div data-object="true" data-object-type="textbox" class="kicker-sm"
+       style="position:absolute; left:960px; top:360px; width:860px; z-index:10;">
+    Common Issues · Quick Reference
+  </div>
+
+  <div data-object="true" data-object-type="shape" class="title-rule"
+       style="position:absolute; left:960px; top:392px; width:80px; z-index:1;"></div>
+
+  <!-- Table card background -->
+  <div data-object="true" data-object-type="shape" class="card-plain"
+       style="position:absolute; left:960px; top:430px; width:860px; height:550px; z-index:1;"></div>
+
+  <!-- Header row -->
+  <div data-object="true" data-object-type="shape"
+       style="position:absolute; left:960px; top:430px; width:860px; height:60px; background:var(--c-red); z-index:1;"></div>
+
+  <div data-object="true" data-object-type="textbox"
+       style="position:absolute; left:990px; top:445px; width:860px; z-index:10; font-family:var(--f-mono); font-size:18px; font-weight:600; letter-spacing:2px; color:var(--c-white); text-transform:uppercase;">
+    <span style="display:inline-block; width:280px;">Symptom</span><span style="display:inline-block; width:240px;">Likely Cause</span><span>First Action</span>
+  </div>
+
+  <!-- Row 1 -->
+  <div data-object="true" data-object-type="textbox"
+       style="position:absolute; left:990px; top:510px; width:840px; z-index:10; font-family:var(--f-sans); font-size:18px; font-weight:500; color:var(--c-ink); line-height:1.4;">
+    <span style="display:inline-block; width:280px; vertical-align:top; font-weight:600;">Repo access denied</span><span style="display:inline-block; width:240px; vertical-align:top; color:var(--c-body);">Permissions / SSH key</span><span style="vertical-align:top; color:var(--c-body);">Verify account &amp; key, request access</span>
+  </div>
+
+  <div data-object="true" data-object-type="shape" style="position:absolute; left:990px; top:580px; width:800px; height:1px; background:var(--c-rule); z-index:1;"></div>
+
+  <!-- Row 2 -->
+  <div data-object="true" data-object-type="textbox"
+       style="position:absolute; left:990px; top:600px; width:840px; z-index:10; font-family:var(--f-sans); font-size:18px; font-weight:500; color:var(--c-ink); line-height:1.4;">
+    <span style="display:inline-block; width:280px; vertical-align:top; font-weight:600;">Build fails on install</span><span style="display:inline-block; width:240px; vertical-align:top; color:var(--c-body);">Wrong runtime version</span><span style="vertical-align:top; color:var(--c-body);">Check Java / Python / Node versions</span>
+  </div>
+
+  <div data-object="true" data-object-type="shape" style="position:absolute; left:990px; top:670px; width:800px; height:1px; background:var(--c-rule); z-index:1;"></div>
+
+  <!-- Row 3 -->
+  <div data-object="true" data-object-type="textbox"
+       style="position:absolute; left:990px; top:690px; width:840px; z-index:10; font-family:var(--f-sans); font-size:18px; font-weight:500; color:var(--c-ink); line-height:1.4;">
+    <span style="display:inline-block; width:280px; vertical-align:top; font-weight:600;">Login fails after start</span><span style="display:inline-block; width:240px; vertical-align:top; color:var(--c-body);">Bad credentials / env</span><span style="vertical-align:top; color:var(--c-body);">Confirm secrets &amp; API base URL</span>
+  </div>
+
+  <div data-object="true" data-object-type="shape" style="position:absolute; left:990px; top:760px; width:800px; height:1px; background:var(--c-rule); z-index:1;"></div>
+
+  <!-- Row 4 -->
+  <div data-object="true" data-object-type="textbox"
+       style="position:absolute; left:990px; top:780px; width:840px; z-index:10; font-family:var(--f-sans); font-size:18px; font-weight:500; color:var(--c-ink); line-height:1.4;">
+    <span style="display:inline-block; width:280px; vertical-align:top; font-weight:600;">UI loads, no data</span><span style="display:inline-block; width:240px; vertical-align:top; color:var(--c-body);">Backend / DB / migration</span><span style="vertical-align:top; color:var(--c-body);">Check backend logs &amp; migration state</span>
+  </div>
+
+  <div data-object="true" data-object-type="shape" style="position:absolute; left:990px; top:850px; width:800px; height:1px; background:var(--c-rule); z-index:1;"></div>
+
+  <!-- Row 5 -->
+  <div data-object="true" data-object-type="textbox"
+       style="position:absolute; left:990px; top:870px; width:840px; z-index:10; font-family:var(--f-sans); font-size:18px; font-weight:500; color:var(--c-ink); line-height:1.4;">
+    <span style="display:inline-block; width:280px; vertical-align:top; font-weight:600;">Python service won't start</span><span style="display:inline-block; width:240px; vertical-align:top; color:var(--c-body);">venv / packages</span><span style="vertical-align:top; color:var(--c-body);">Activate venv, reinstall requirements</span>
+  </div>
+
+  <!-- Footer -->
+  <div data-object="true" data-object-type="shape" class="footer-rule" style="position:absolute; z-index:1;"></div>
+  <div data-object="true" data-object-type="textbox" class="footer-counter" style="position:absolute; z-index:10;">
+    DEVELOPER ONBOARDING &nbsp;·&nbsp; 04 / 05
+  </div>
+
+</div>
+</body>
+</html>

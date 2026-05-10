@@ -1,0 +1,237 @@
+/* =====================================================================
+   Developer Onboarding — Shared Stylesheet
+   Tokens, typography, components, and layout patterns shared by every
+   slide. Edit values here to update the whole deck at once.
+   ===================================================================== */
+
+/* ---------- 1. Design tokens ---------- */
+:root {
+  /* Colors */
+  --c-red:        #C8102E;   /* primary red — accent strips, CTA cards */
+  --c-red-deep:   #8B0A1F;   /* deep red — section labels */
+  --c-red-wash:   #FCEAEC;   /* soft red — subtle card backgrounds */
+  --c-white:      #FFFFFF;
+  --c-ink:        #1A1A1A;   /* primary text */
+  --c-body:       #4A4A4A;   /* secondary text */
+  --c-mute:       #8A8A8A;   /* footer counter */
+  --c-rule:       #E5E5E5;   /* dividers, card borders */
+  --c-code-bg:    #1A1A1A;   /* terminal block background */
+  --c-code-text:  #FCEAEC;   /* terminal block text */
+  --c-code-mute:  #9A9A9A;   /* terminal prompt / comment */
+
+  /* Type families */
+  --f-sans: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --f-mono: 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace;
+}
+
+/* ---------- 2. Page reset (canvas-safe) ---------- */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: var(--c-white);
+  font-family: var(--f-sans);
+  color: var(--c-ink);
+}
+
+/* ---------- 3. Typography helpers
+   Inline styles on data-objects keep authoritative position; these
+   class hooks handle look-and-feel only.
+   ---------- */
+.kicker {
+  font-family: var(--f-mono);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: var(--c-red-deep);
+  text-transform: uppercase;
+}
+.kicker-sm {
+  font-family: var(--f-mono);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: var(--c-red-deep);
+  text-transform: uppercase;
+}
+.kicker-xs {
+  font-family: var(--f-mono);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--c-red-deep);
+  text-transform: uppercase;
+}
+.title-xl {
+  font-family: var(--f-sans);
+  font-size: 140px;
+  font-weight: 800;
+  line-height: 1.0;
+  letter-spacing: -3px;
+  color: var(--c-ink);
+}
+.title-lg {
+  font-family: var(--f-sans);
+  font-size: 84px;
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -2px;
+  color: var(--c-ink);
+}
+.title-md {
+  font-family: var(--f-sans);
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -1px;
+}
+.title-sm {
+  font-family: var(--f-sans);
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--c-ink);
+}
+.title-xs {
+  font-family: var(--f-sans);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--c-ink);
+}
+.subtitle {
+  font-family: var(--f-sans);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--c-body);
+}
+.lead {
+  font-family: var(--f-sans);
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--c-body);
+}
+.body-lg {
+  font-family: var(--f-sans);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--c-ink);
+}
+.body-md {
+  font-family: var(--f-sans);
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.85;
+  color: var(--c-ink);
+}
+.body-sm {
+  font-family: var(--f-sans);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: var(--c-ink);
+}
+.body-xs {
+  font-family: var(--f-sans);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--c-body);
+}
+.body-tag {
+  font-family: var(--f-sans);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--c-ink);
+}
+
+/* Step number style used on the setup slide */
+.step-num {
+  font-family: var(--f-mono);
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--c-red);
+  line-height: 1;
+}
+.step-num.on-red { color: var(--c-white); }
+
+/* ---------- 4. Recurring shapes / components ---------- */
+
+/* Top red rule that runs across every interior slide */
+.top-rule {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1920px;
+  height: 8px;
+  background: var(--c-red);
+}
+
+/* Footer divider + counter pair */
+.footer-rule {
+  position: absolute;
+  left: 100px;
+  top: 1020px;
+  width: 1720px;
+  height: 2px;
+  background: var(--c-rule);
+}
+.footer-counter {
+  position: absolute;
+  left: 100px;
+  top: 1035px;
+  width: 1720px;
+  font-family: var(--f-mono);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--c-mute);
+  letter-spacing: 2px;
+}
+
+/* Short red underline used beneath section labels */
+.title-rule {
+  height: 3px;
+  background: var(--c-red);
+  width: 80px;
+}
+
+/* Card pattern: white card with subtle border */
+.card-plain {
+  background: var(--c-white);
+  border: 2px solid var(--c-rule);
+}
+
+/* Card pattern: soft red wash with red left bar */
+.card-wash {
+  background: var(--c-red-wash);
+  border-left: 6px solid var(--c-red);
+}
+
+/* Card pattern: solid red CTA */
+.card-red {
+  background: var(--c-red);
+  color: var(--c-white);
+}
+
+/* Terminal / code block */
+.code-block {
+  background: var(--c-code-bg);
+}
+.code-text {
+  font-family: var(--f-mono);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--c-code-text);
+  line-height: 1.7;
+}
+.code-text .prompt { color: var(--c-code-mute); }
+
+/* ---------- 5. Color helpers (used on inverted cards) ---------- */
+.on-red          { color: var(--c-white); }
+.on-red-soft     { color: var(--c-red-wash); }
+.on-red .kicker,
+.on-red .kicker-sm,
+.on-red .kicker-xs { color: var(--c-red-wash); }
