@@ -6,7 +6,7 @@ permalink: /resume/
 
 <div class="resume-header">
   <p class="resume-kicker">Resume</p>
-  <h1>Resume</h1>
+  <h1>Shilpa John</h1>
   <p><strong>Technical Writer | Software Documentation | Developer Communication</strong></p>
   <p class="resume-contact">[Bangalore, Karnataka] · <a href="mailto:your-email@example.com">shilpajohn.sandbox@gmail.com</a> · <a href="https://in.linkedin.com/in/shilpa-john-751a547" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://shilpasandbox.github.io/technical-writing-portfolio" target="_blank" rel="noopener">GitHub</a></p>
 </div>
@@ -102,7 +102,7 @@ permalink: /resume/
     <section class="resume-panel">
       <h2>Education</h2>
       <p><strong>PG Level Advanced Certification Programme in Deep Learning Foundations and Applications (April 2024 to April 2025)</strong> <br>covering Deep Learning Architecture and Deep Learning applications in NLP, Vision, Reinforcement Learning.<br> Indian Institute of Science(IISc) - Bangalore, India</p>
-      <p><strong>Bachelor’s Degree in Computer Science and Engineering (July 1994 to May 1998).</strong><br>SRM Engineering College, Madras University — Chennai, India</p>
+      <p><strong>Bachelor’s Degree in Computer Science and Engineering (July 1994 to May 1998)</strong><br>SRM Engineering College, Madras University — Chennai, India</p>
     </section>
 
     <section class="resume-panel">
