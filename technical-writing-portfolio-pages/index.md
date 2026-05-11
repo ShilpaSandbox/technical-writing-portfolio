@@ -38,13 +38,13 @@ This site showcases sample documentation across developer docs, onboarding mater
   <p class="lead">Each sample highlights a different documentation skill set and audience.</p>
   <div class="cards">
     <div class="card">
-      <h3><a href="{{ '/samples/redacted-api-quickstart-guide/' | relative_url }}"> API Quickstart Guide</a></h3>
+      <h3><a href="{{ '/samples/api-quickstart-taskflow/' | relative_url }}">API Quickstart Guide</a></h3>
       <p>A developer documentation sample showing authentication, first request flow, response handling, and common integration errors.</p>
       <a href="{{ '/samples/redacted-api-quickstart-guide/' | relative_url }}">Read sample →</a>
     </div>
 
     <div class="card">
-      <h3><a href="{{ '/samples/redacted-developer-onboarding-guide/' | relative_url }}"> Developer Onboarding Guide</a></h3>
+      <h3><a href="{{ '/samples/redacted-developer-onboarding-guide/' | relative_url }}">Developer Onboarding Guide</a></h3>
       <p>An onboarding sample showing environment setup, configuration, verification, and first-week workflow guidance for new developers.</p>
       <a href="{{ '/samples/redacted-developer-onboarding-guide/' | relative_url }}">Read sample →</a>
     </div>
@@ -78,6 +78,10 @@ This site showcases sample documentation across developer docs, onboarding mater
     <li>Working with engineers, product teams, and subject matter experts</li>
     <li>Using technical context from Java, Python, Git, Markdown, and web design</li>
     <li>Creating practical documentation for onboarding, troubleshooting, and product adoption</li>
+    <li>Knowledge of DITA (Darwin Information Typing Architecture)</li>
+    <li>SQL, Java, Python, HTML, CSS</li>
+    <li>Git and Markdown</li>
+    <li>Worked with AI tools and crafting efficient prompts</li>
   </ul>
 </section>
 

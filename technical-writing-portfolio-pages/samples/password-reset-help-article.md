@@ -52,3 +52,5 @@ If your verification code does not work:
 ## Result
 
 Once setup is complete, your account will require both your password and a time-based verification code at sign-in.
+
+[← Back to Home]({{ '/' | relative_url }})

@@ -72,3 +72,5 @@ After confirming access, you can:
 - update task status
 - filter tasks by user or project
 - integrate TaskFlow into your internal workflow automation
+
+[← Back to Home]({{ '/' | relative_url }})

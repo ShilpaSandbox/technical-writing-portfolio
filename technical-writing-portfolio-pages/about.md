@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="resume-header">
   <p class="resume-kicker">About</p>
-  <h1>About Shilpa]</h1>
+  <h1>About Shilpa</h1>
   <p><strong>Technical Writer | Software Documentation | Developer Communication</strong></p>
   <p class="resume-contact">I bring a software engineering background to technical writing, with practical experience in Java, Python, web design, and documentation for technical and non-technical audiences.</p>
 </div>
@@ -46,30 +46,37 @@ permalink: /about/
       <ul class="resume-list">
         <li>Technical documentation</li>
         <li>Developer documentation</li>
-        <li>User assistance and help content</li>
-        <li>Process documentation and SOPs</li>
-        <li>Writing and editing</li>
-        <li>SME collaboration</li>
-        <li>Information organization</li>
-        <li>Java, Python, Git, Markdown</li>
-        <li>HTML, CSS, and web design context</li>
+        <li>User guides and help articles</li>
+        <li>SOPs and process documentation</li>
+        <li>Research and SME interviews</li>
+        <li>Editing and content review</li>
+        <li>Knowledge of DITA (Darwin Information Typing Architecture)</li>
+        <li>Release notes and change communication</li>
+        <li>SQL, Java, Python, HTML, CSS</li>
+        <li>Git and Markdown</li>
+        <li>Worked on AI tools like Genspark.ai, NotebookLM</li>
+        <li>UX/UI principles for web pages</li>
       </ul>
     </section>
 
     <section class="resume-panel">
       <h2>Portfolio Highlights</h2>
       <ul class="resume-list">
-        <li><a href="{{ '/samples/redacted-api-quickstart-guide/' | relative_url }}">Redacted API Quickstart Guide</a></li>
-        <li><a href="{{ '/samples/redacted-developer-onboarding-guide/' | relative_url }}">Redacted Developer Onboarding Guide</a></li>
+        <li><a href="{{ '/samples/api-quickstart-taskflow/' | relative_url }}">API Quickstart Guide</a></li>
+        <li><a href="{{ '/samples/redacted-developer-onboarding-guide/' | relative_url }}">Developer Onboarding Guide</a></li>
         <li><a href="{{ '/samples/password-reset-help-article/' | relative_url }}">User Help Article</a></li>
       </ul>
     </section>
 
     <section class="resume-panel">
       <h2>Contact</h2>
-      <p><a href="mailto:shilpajohn.sandbox@gmail.com">your-email@example.com</a><br>
+      <p><a href="mailto:shilpajohn.sandbox@gmail.com">shilpajohn.sandbox@gmail.com</a><br>
       <a href="https://in.linkedin.com/in/shilpa-john-751a547" target="_blank" rel="noopener">LinkedIn</a><br>
       <a href="https://shilpasandbox.github.io/technical-writing-portfolio" target="_blank" rel="noopener">GitHub</a></p>
+    </section>
+
+    <section class="resume-panel">
+        [← Back to Home]({{ '/' | relative_url }})
     </section>
   </aside>
 </div>

@@ -8,7 +8,7 @@ permalink: /resume/
   <p class="resume-kicker">Resume</p>
   <h1>Shilpa John</h1>
   <p><strong>Technical Writer | Software Documentation | Developer Communication</strong></p>
-  <p class="resume-contact">[Bangalore, Karnataka] · <a href="mailto:your-email@example.com">shilpajohn.sandbox@gmail.com</a> · <a href="https://in.linkedin.com/in/shilpa-john-751a547" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://shilpasandbox.github.io/technical-writing-portfolio" target="_blank" rel="noopener">GitHub</a></p>
+  <p class="resume-contact">Bangalore, Karnataka · <a href="mailto:your-email@example.com">shilpajohn.sandbox@gmail.com</a> · <a href="https://in.linkedin.com/in/shilpa-john-751a547" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://shilpasandbox.github.io/technical-writing-portfolio" target="_blank" rel="noopener">GitHub</a></p>
 </div>
 
 <div class="meta-box">
@@ -77,7 +77,7 @@ permalink: /resume/
         <li>SOPs and process documentation</li>
         <li>Research and SME interviews</li>
         <li>Editing and content review</li>
-        <li>Knowledge of DITA (Darwin Information Typing Architecture</li>
+        <li>Knowledge of DITA (Darwin Information Typing Architecture)</li>
         <li>Release notes and change communication</li>
         <li>SQL, Java, Python, HTML, CSS</li>
         <li>Git and Markdown</li>
