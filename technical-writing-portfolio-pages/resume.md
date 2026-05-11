@@ -14,12 +14,6 @@ permalink: /resume/
 <div class="meta-box">
     <div>
     <strong>Expertise:</strong> Technical writer with software engineering background and hands-on technical depth in Java, Python, Git, Markdown, HTML, CSS, and web design.
-    <strong>-</strong> 
-    <div>
-    <strong>Education:</strong>PG Level Advanced Certification Programme in Deep Learning Foundations and Applications, Indian Institute of Science(IISc), Bangalore (April 2024 to April 2025) covering Deep Learning Architecture and Deep Learning applications in NLP, Vision, Reinforcement Learning. 
-    <strong>-</strong>
-    <div>
-    Bachelor of Engineering (B.E.) in Computer Science and Engineering, Madras University, Tamil Nadu, India (July 1994 to May 1998).
 
 </div>
 
@@ -107,7 +101,8 @@ permalink: /resume/
 
     <section class="resume-panel">
       <h2>Education</h2>
-      <p><strong>Bachelor’s Degree in Computer Science and Engineering</strong><br>Madras University — Chennai, India</p>
+      <p><strong>PG Level Advanced Certification Programme in Deep Learning Foundations and Applications (April 2024 to April 2025)</strong> <br>covering Deep Learning Architecture and Deep Learning applications in NLP, Vision, Reinforcement Learning.<br> Indian Institute of Science(IISc) - Bangalore, India</p>
+      <p><strong>Bachelor’s Degree in Computer Science and Engineering (July 1994 to May 1998).</strong><br>SRM Engineering College, Madras University — Chennai, India</p>
     </section>
 
     <section class="resume-panel">
