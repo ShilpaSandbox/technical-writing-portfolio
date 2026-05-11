@@ -14,7 +14,6 @@ permalink: /resume/
 <div class="meta-box">
     <div>
     <strong>Expertise:</strong> Technical writer with software engineering background and hands-on technical depth in Java, Python, Git, Markdown, HTML, CSS, and web design.
-
 </div>
 
 <div class="resume-grid">
