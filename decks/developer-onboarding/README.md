@@ -1,4 +1,4 @@
-# Developer Onboarding — Training Deck (Editable Copy)
+# Developer Onboarding — Training Deck (Editable ) Author Shilpa John
 
 A 5-slide developer onboarding training deck in a red-and-white documentation aesthetic. Refactored to use a **shared stylesheet** plus a **reusable slide template** so the whole deck stays consistent and easy to update.
 

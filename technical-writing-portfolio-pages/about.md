@@ -12,7 +12,7 @@ permalink: /about/
 </div>
 
 <div class="meta-box">
-<strong>Professional focus:</strong> Clear, accurate, and user-centered documentation that helps developers, internal teams, and end users understand systems, complete tasks, and adopt products with less friction.
+<strong>Professional focus:</strong> Clear, accurate, and user-centered documentation that helps developers, internal teams, and end users understand systems, complete tasks, and adopt products.
 </div>
 
 <div class="resume-grid">
@@ -67,9 +67,9 @@ permalink: /about/
 
     <section class="resume-panel">
       <h2>Contact</h2>
-      <p><a href="mailto:your-email@example.com">your-email@example.com</a><br>
-      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a><br>
-      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></p>
+      <p><a href="mailto:shilpajohn.sandbox@gmail.com">your-email@example.com</a><br>
+      <a href="https://in.linkedin.com/in/shilpa-john-751a547" target="_blank" rel="noopener">LinkedIn</a><br>
+      <a href="https://shilpasandbox.github.io/technical-writing-portfolio" target="_blank" rel="noopener">GitHub</a></p>
     </section>
   </aside>
 </div>

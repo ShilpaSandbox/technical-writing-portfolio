@@ -2,9 +2,9 @@
   "schemaVersion": "1.0",
   "format": "html",
   "metadata": {
-    "title": "Developer Onboarding — Training Deck (Copy)",
-    "description": "Editable copy of the 5-slide developer onboarding training deck with red and white color scheme.",
-    "author": ""
+    "title": "Developer Onboarding — Training Deck",
+    "description": "Editable version of the 5-slide developer onboarding training deck with red and white color scheme.",
+    "author": "Shilpa John"
   },
   "canvas": {"width": 1920, "height": 1080},
   "playlist": [

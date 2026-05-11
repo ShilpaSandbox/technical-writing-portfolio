@@ -8,7 +8,7 @@ permalink: /
   <div class="container">
     <p><strong>Technical Writer Portfolio</strong></p>
     <h1>Shilpa John</h1>
-    <p>Technical writer with a background in software engineering, Java, Python, and web design. I create clear, user-focused documentation that helps developers, internal teams, and end users understand products faster and work with less friction.</p>
+    <p>Technical writer with a background in software engineering, Java, Python, and web design. I create clear, user-focused documentation that helps developers, internal teams, and end users understand products faster.</p>
     <div class="badges">
       <span class="badge">Software Documentation</span>
       <span class="badge">Developer Communication</span>
@@ -17,10 +17,10 @@ permalink: /
       <span class="badge">Java · Python · Web Design</span>
     </div>
     <div class="cta-row">
-      <a class="button" href="mailto:your-email@example.com">Contact Me</a>
+      <a class="button" href="shilpajohn.sandbox@gmail.com">Contact Me</a>
       <a class="button secondary" href="{{ '/about/' | relative_url }}">About Me</a>
       <a class="button secondary" href="{{ '/resume/' | relative_url }}">View Resume</a>
-      <a class="button secondary" href="https://www.linkedin.com/" target="_blank" rel="noopener">View LinkedIn</a>
+      <a class="button secondary" href="https://in.linkedin.com/in/shilpa-john-751a547" target="_blank" rel="noopener">View LinkedIn</a>
     </div>
   </div>
 </section>
@@ -30,7 +30,7 @@ permalink: /
 This site showcases sample documentation across developer docs, onboarding materials, end-user help, and portfolio pages aligned to technical writer roles. The goal is to demonstrate clarity, structure, audience awareness, and the ability to translate technical complexity into usable content.
 
 <div class="meta-box">
-<strong>Good fit for roles such as:</strong> Technical Writer, Documentation Specialist, Developer Documentation Writer, Knowledge Base Writer, and Software Documentation Specialist.
+<strong>Good fit for roles such as:</strong> Technical Writer, Documentation Specialist, Developer Documentation Writer, Knowledge Base and Research Writer, and Software Documentation Specialist.
 </div>
 
 <section class="section">
@@ -38,16 +38,17 @@ This site showcases sample documentation across developer docs, onboarding mater
   <p class="lead">Each sample highlights a different documentation skill set and audience.</p>
   <div class="cards">
     <div class="card">
-      <h3><a href="{{ '/samples/redacted-api-quickstart-guide/' | relative_url }}">Redacted API Quickstart Guide</a></h3>
-      <p>A portfolio-safe developer documentation sample showing authentication, first request flow, response handling, and common integration errors.</p>
+      <h3><a href="{{ '/samples/redacted-api-quickstart-guide/' | relative_url }}"> API Quickstart Guide</a></h3>
+      <p>A developer documentation sample showing authentication, first request flow, response handling, and common integration errors.</p>
       <a href="{{ '/samples/redacted-api-quickstart-guide/' | relative_url }}">Read sample →</a>
     </div>
 
     <div class="card">
-      <h3><a href="{{ '/samples/redacted-developer-onboarding-guide/' | relative_url }}">Redacted Developer Onboarding Guide</a></h3>
-      <p>A portfolio-safe onboarding sample showing environment setup, configuration, verification, and first-week workflow guidance for new developers.</p>
+      <h3><a href="{{ '/samples/redacted-developer-onboarding-guide/' | relative_url }}"> Developer Onboarding Guide</a></h3>
+      <p>An onboarding sample showing environment setup, configuration, verification, and first-week workflow guidance for new developers.</p>
       <a href="{{ '/samples/redacted-developer-onboarding-guide/' | relative_url }}">Read sample →</a>
     </div>
+    
 
     <div class="card">
       <h3><a href="{{ '/samples/password-reset-help-article/' | relative_url }}">User Help Article</a></h3>
@@ -82,7 +83,7 @@ This site showcases sample documentation across developer docs, onboarding mater
 
 <section class="section">
   <h2>Contact</h2>
-  <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a><br>
-  LinkedIn: <a href="https://www.linkedin.com/" target="_blank" rel="noopener">[LinkedIn URL]</a><br>
-  GitHub: <a href="https://github.com/" target="_blank" rel="noopener">[GitHub URL]</a></p>
+  <p>Email: <a href="mailto:shilpajohn.sandbox@gmail.com">shilpajohn.sandbox@gmail.com</a><br>
+  LinkedIn: <a href="https://in.linkedin.com/in/shilpa-john-751a547" target="_blank" rel="noopener">[LinkedIn URL]</a><br>
+  GitHub: <a href="https://shilpasandbox.github.io/technical-writing-portfolio" target="_blank" rel="noopener">[GitHub URL]</a></p>
 </section>
