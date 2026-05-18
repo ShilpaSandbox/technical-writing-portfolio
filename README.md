@@ -1,14 +1,14 @@
-# Technical Writing Portfolio — GitHub Pages Version
+# My Technical Writing Portfolio — GitHub Pages
 
-This repository is a customized GitHub Pages portfolio for a technical writer with a background in software engineering, Java, Python, and web design.
+I have created my GitHub Pages portfolio to showcase my work as a technical writer with a background in software engineering, Java, Python, and web design.
 
 ## Included pages
 
 - `index.md` — landing page
-- `samples/api-quickstart-taskflow.md` — API quickstart sample
-- `samples/password-reset-help-article.md` — end-user help article
-- `samples/release-notes-publishing-sop.md` — internal SOP sample
-- `samples/release-notes-v4-2.md` — release notes sample
+- `samples/api-quickstart-taskflow.md` — API quickstart sample  (in progress)
+- `samples/password-reset-help-article.md` — end-user help article  (in progress)
+- `samples/release-notes-publishing-sop.md` — internal SOP sample (in progress)
+- `samples/release-notes-v4-2.md` — release notes sample  (in progress)
 - `samples/developer-onboarding-case-study.md` — documentation case study
 - `_layouts/default.html` — custom site layout
 - `assets/css/style.css` — custom styles
@@ -23,17 +23,7 @@ This repository is a customized GitHub Pages portfolio for a technical writer wi
 5. Select the `main` branch and the `/(root)` folder.
 6. Save the settings and wait for the site to publish.
 
-## What to customize
 
-- Replace `[Your Name]` with your name.
-- Update the email, LinkedIn, and GitHub links.
-- Replace fictional company and product names if needed.
-- Add screenshots or diagrams in an `assets/images/` folder.
-- Swap sample descriptions to match the roles you are targeting.
-
-## Suggested next upgrades
-
-- Add an `about.md` page with your resume summary
-- Add screenshots to make the samples more visual
+- Added an `about.md` page with my resume summary
 - Add one redacted real work sample
 - Create a second version tailored for API technical writer jobs
